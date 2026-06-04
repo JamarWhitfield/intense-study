@@ -1,4 +1,4 @@
-# software-systems-2026
+# software-systems
 
 A structured engineering lab for building stronger fundamentals in algorithms, systems programming, distributed systems, probability, and machine learning infrastructure.
 
