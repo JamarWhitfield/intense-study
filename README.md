@@ -1,19 +1,25 @@
 # software-systems-2026
 
-A focused repository for building stronger software engineering fundamentals through algorithms, systems programming, distributed systems, ML systems, and production-style projects.
+A structured engineering lab for building stronger fundamentals in algorithms, systems programming, distributed systems, probability, and machine learning infrastructure.
+
+The goal of this repository is simple:
+
+> Turn concepts into code, notes, benchmarks, and small working systems.
 
 ---
 
-## Focus
+## What This Repository Shows
 
-| Area | What I’m Building |
+This repo is organized around practical engineering growth, not just completed tutorials.
+
+| Area | Focus |
 |---|---|
-| Algorithms | Pattern recognition, implementation speed, and clean problem solving |
-| Systems | C/C++, memory, concurrency, networking, and performance |
-| Distributed Systems | Storage, replication, partitioning, transactions, and reliability |
-| Probability & Statistics | Simulations, probability drills, and statistical reasoning |
-| ML Systems | Data pipelines, model evaluation, monitoring, and retrieval systems |
-| Projects | Documented systems with tests, benchmarks, and architecture notes |
+| **Algorithms** | Pattern recognition, clean implementations, complexity analysis |
+| **Systems Programming** | C/C++, memory, concurrency, networking, and performance |
+| **Distributed Systems** | Storage, replication, partitioning, transactions, and reliability |
+| **Probability & Statistics** | Simulations, reasoning under uncertainty, and interview-style drills |
+| **ML Systems** | Data pipelines, evaluation, monitoring, retrieval, and production workflows |
+| **Projects** | End-to-end systems with documentation, tests, architecture notes, and benchmarks |
 
 ---
 
@@ -22,12 +28,59 @@ A focused repository for building stronger software engineering fundamentals thr
 ```text
 software-systems-2026/
 ├── algorithms/
+│   ├── arrays_hashing/
+│   ├── two_pointers/
+│   ├── sliding_window/
+│   ├── stack/
+│   ├── binary_search/
+│   ├── trees/
+│   ├── graphs/
+│   ├── heaps/
+│   └── dynamic_programming/
+│
 ├── systems/
+│   ├── c_basics/
+│   ├── memory/
+│   ├── processes/
+│   ├── concurrency/
+│   ├── networking/
+│   └── performance/
+│
 ├── distributed_systems/
+│   ├── storage/
+│   ├── replication/
+│   ├── partitioning/
+│   ├── transactions/
+│   ├── consistency/
+│   └── mini_projects/
+│
 ├── probability_statistics/
+│   ├── counting/
+│   ├── expected_value/
+│   ├── conditional_probability/
+│   ├── bayes/
+│   ├── distributions/
+│   └── simulations/
+│
 ├── ml_systems/
+│   ├── data_pipelines/
+│   ├── retrieval/
+│   ├── evaluation/
+│   ├── monitoring/
+│   └── experiments/
+│
 ├── projects/
+│   ├── document_chatbot/
+│   ├── market_data_store/
+│   ├── feature_pipeline/
+│   └── low_latency_service/
+│
 └── interview_prep/
+    ├── missed_problems_log.md
+    ├── systems_prompts.md
+    ├── probability_drills.md
+    ├── behavioral_notes.md
+    └── mock_reviews.md
 ```
 
 ---
@@ -35,20 +88,38 @@ software-systems-2026/
 ## Featured Work
 
 ### Production Document Chatbot
-Document ingestion, retrieval, evaluation, API design, load testing, and monitoring.
 
-### Low-Latency Price Alert Service
-Event processing, concurrency, networking, and latency measurement.
+A document retrieval system with ingestion, API design, retrieval evaluation, load testing, and monitoring.
 
-### Market Data Store
-Time-series ingestion, indexing, querying, and benchmark reports.
-
-### ML Feature Pipeline
-Data validation, feature generation, model evaluation, and monitoring.
+**Focus:** backend systems, retrieval, evaluation, reliability, API design
 
 ---
 
-## Progress
+### Low-Latency Service
+
+A small event-processing service focused on concurrency, networking, profiling, and latency measurement.
+
+**Focus:** C++, systems programming, performance, benchmarking
+
+---
+
+### Market Data Store
+
+A time-series storage and query system with ingestion scripts, indexing experiments, and benchmark reports.
+
+**Focus:** storage design, SQL, indexing, query performance, data pipelines
+
+---
+
+### ML Feature Pipeline
+
+A production-style feature pipeline with data validation, transformations, evaluation, and monitoring hooks.
+
+**Focus:** ML infrastructure, data quality, reproducibility, monitoring
+
+---
+
+## Progress Dashboard
 
 | Category | Target | Completed |
 |---|---:|---:|
@@ -66,30 +137,22 @@ Data validation, feature generation, model evaluation, and monitoring.
 **Week 1 — Setup + Baseline**
 
 ```text
-[ ] Create trackers
-[ ] Set up repository structure
+[ ] Create repository structure
+[ ] Set up problem tracker
 [ ] Install C/C++ toolchain
 [ ] Attempt first algorithm problem
 [ ] Create missed-problems log
+[ ] Create probability/statistics tracker
+[ ] Push first commit
 ```
 
 ---
 
-## Standard Format
+## How I Document Work
 
-Each project should include:
+Every important solution or project should include the reasoning behind it.
 
-```text
-README
-Architecture
-How to run
-Tests
-Benchmarks or results
-Tradeoffs
-Next improvements
-```
-
-Each algorithm note should include:
+### Algorithm Notes
 
 ```text
 Problem
@@ -100,8 +163,31 @@ Mistake to avoid
 What I learned
 ```
 
+### Project Notes
+
+```text
+Overview
+Architecture
+How to run
+Tests
+Benchmarks or results
+Tradeoffs
+Next improvements
+```
+
 ---
 
-## Principle
+## Engineering Principles
 
-Build small things carefully. Measure when possible. Explain tradeoffs clearly.
+- Build small things carefully.
+- Prefer clarity before optimization.
+- Measure before making performance claims.
+- Explain tradeoffs instead of hiding them.
+- Keep notes short, technical, and useful.
+- Treat every project as a chance to practice production thinking.
+
+---
+
+## Status
+
+This repository is a work in progress and is meant to show consistent technical development over time.
